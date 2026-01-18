@@ -17,3 +17,97 @@ body {
     font-size: 1.6rem;
     color: var(--text-color);
 }
+
+/* ======== Common ======== */
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.main-content {
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0 16px;
+    width: 118px;
+    color: #fff;
+    text-align: center;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px; /* 175% */
+    border-radius: 24.5px;
+    background: #171100;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+/* ======== Header ======== */
+.header {
+    background: #fffcf4;
+}
+
+.header.fixed {
+    position: sticky;
+    top: -28px;
+}
+
+.header .body {
+    display: flex;
+    align-items: center;
+    padding: 36px 0 8px;
+}
+
+.header .logo {
+    cursor: pointer;
+}
+
+.nav {
+    margin-left: auto;
+}
+
+.nav ul {
+    display: flex;
+}
+
+.nav a {
+    position: relative;
+    padding: 8px 21px;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.nav a:hover,
+.nav .active a {
+    text-shadow: 1px 0 0 currentColor;
+    color: #171100;
+}
+
+.nav .active a::after {
+    position: absolute;
+    content: "";
+    display: block;
+    left: 21px;
+    bottom: 6px;
+    border-radius: 1px;
+    background: #171100;
+    width: 12px;
+    height: 2px;
+}
+
+.header .sign-up-btn {
+    min-width: 144px;
+}
+
+/* ======== Header ======== */
+
+/* ======== Header ======== */
+
+/* ======== Header ======== */
